@@ -5,12 +5,12 @@
  * This program finds the distanse in cm using sonar
 */
 
-let distansetoObject:number = 0
+let distansetoObject: number = 0
 
-//setup
+// setup
 basic.showIcon(IconNames.Silly)
 
-//finding distanse from sonar
+// finding distanse from sonar
 input.onButtonPressed(Button.A, function () {
   basic.clearScreen()
   distansetoObject = sonar.ping(
